@@ -11,10 +11,3 @@ sudo apt get tightvncserver
 echo "Do sudo reboot to reboot"
 # Fix problem with numpy
 sudo apt-get install python-dev libatlas-base-dev
-# Create a virtual environment
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install RPi.GPIO
-pip install numpy
-pip install pandas
