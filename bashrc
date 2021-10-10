@@ -112,7 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 #
-PATH=$HOME/BaseStack/bin/:$PATH
+PATH=$HOME/raspberrypi_setup/bin:$HOME/BaseStack/bin/:$PATH
 source alias.sh
 cd $HOME
 source venv/bin/activate
