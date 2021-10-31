@@ -13,3 +13,6 @@ Run these scripts in the following order:
 ## Runing with VNC Server
 * On client: use VNC Server
 * On raspberry Pi: ``tightvncserver :0``
+
+## Notes
+1. To find the IP address, ping the machine name
