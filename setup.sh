@@ -17,5 +17,8 @@ sudo apt clean
 sudo apt get tightvncserver
 # Fix problem with numpy
 sudo apt-get install python-dev libatlas-base-dev
+# Copy to clip
+#  Usage: xclip -sel c < <file>
+sudo apt-get install -y xclip
 #
 echo "Do sudo reboot to reboot"
