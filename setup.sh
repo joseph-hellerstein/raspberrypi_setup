@@ -14,7 +14,8 @@ git clone https://github.com/ScienceStacks/BaseStack.git
 sudo apt update
 sudo apt full-upgrade
 sudo apt clean
-sudo apt get tightvncserver
+sudo apt-get install realvnc-vnc-server 
+echo "Must enable VNC server - see README.md"
 # Fix problem with numpy
 sudo apt-get install python-dev libatlas-base-dev
 # Copy to clip
