@@ -16,6 +16,7 @@ Run these scripts in the following order:
    1. Select interface options
    1. Select Vnc
    1. Answer Yes to enable
+   1. Select Display Options > Resolution > 1280 X 720
    1. Rebot
 * On client - use VNC Viewer to access the IP address
 
